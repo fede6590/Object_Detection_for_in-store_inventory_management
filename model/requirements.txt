@@ -1,0 +1,67 @@
+# # Pillow~=9.0.1
+# pytest~=7.1.1
+# redis~=4.1.4
+# # tensorflow~=2.8.0 ### Check if this one is needed to the docker-compose
+# # numpy~=1.21.2
+# # protobuf~=3.19.0
+
+# ### ADDED TO DONWLOAD WEIGHTS ###
+# wget~=3.2
+
+# # ### FROM YOLO => we just want the ones we need to implement the predict/detection method
+# # # Base ----------------------------------------
+# # matplotlib>=3.2.2
+# # numpy>=1.18.5
+# # opencv-python>=4.1.1
+# # Pillow>=7.1.2
+# # PyYAML>=5.3.1
+# # requests>=2.23.0
+# # scipy>=1.4.1  # Google Colab version
+# # torch>=1.7.0,!=1.12.0  # https://github.com/ultralytics/yolov5/issues/8395
+# # torchvision>=0.8.1,!=0.13.0 # https://github.com/ultralytics/yolov5/issues/8395
+# # tqdm>=4.41.0
+# # protobuf<4.21.3  # https://github.com/ultralytics/yolov5/issues/8012
+# # # Logging -------------------------------------
+# # tensorboard>=2.4.1
+# # # Plotting ------------------------------------
+# # pandas>=1.1.4
+# # seaborn>=0.11.0
+# # # Extras --------------------------------------
+# # ipython  # interactive notebook
+# # psutil  # system utilization
+# # thop  # FLOPs computation
+
+###########################################################################
+
+# User Added
+pytest==7.1.1
+redis==4.1.4
+
+# Base from Yolov5 ----------------------------------------
+matplotlib>=3.2.2
+numpy>=1.18.5
+opencv-python>=4.1.1
+Pillow>=7.1.2
+PyYAML>=5.3.1
+requests>=2.23.0
+scipy>=1.4.1  # Google Colab version
+torch>=1.7.0,!=1.12.0  # https://github.com/ultralytics/yolov5/issues/8395
+torchvision>=0.8.1,!=0.13.0 # https://github.com/ultralytics/yolov5/issues/8395
+tqdm>=4.41.0
+protobuf<4.21.3  # https://github.com/ultralytics/yolov5/issues/8012
+
+# Logging -------------------------------------
+tensorboard>=2.4.1
+# wandb
+
+# Plotting ------------------------------------
+pandas>=1.1.4
+seaborn>=0.11.0
+
+# To download weights
+wget~=3.2
+
+# Extras --------------------------------------
+#ipython  # interactive notebook
+#psutil  # system utilization
+#thop  # FLOPs computation

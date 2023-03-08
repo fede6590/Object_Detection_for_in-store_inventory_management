@@ -1,0 +1,35 @@
+version: "3.2"
+services:
+  api:
+    image: api_ff
+    container_name: api_service_ff
+    build:
+      context: ./api
+      target: build
+    ports:
+      - "5000:5000"
+    environment:
+      - FLASK_APP=app
+      - FLASK_DEBUG=1
+      - FLASK_ENV=development
+    depends_on:
+      - redis
+      - model
+    volumes:
+      - ./uploads:/src/static/uploads
+      - ./detections:/src/static/detections
+
+  redis:
+    image: redis:6.2.6
+    container_name: redis_service_ff
+
+  model:
+    image: model_ff
+    container_name: model_service_ff
+    build:
+      context: ./model
+      target: build
+    depends_on:
+      - redis
+    volumes:
+      - ./uploads:/src/uploads

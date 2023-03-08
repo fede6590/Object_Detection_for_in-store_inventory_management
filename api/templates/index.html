@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<!-- HEAD -->
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Frontend for Retail Store Object Detection."
+    />
+    <title>Retail Store Object Detection</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='fonts/stylesheet.css') }}" />
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/style.css') }}" />
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='images/favicon.ico') }}" />
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header>
+        <a href="https://anyoneai.com/" target="_blank">
+            <img src="{{ url_for('static', filename='images/logo_anyone.png') }}" 
+              alt="Anyone AI Logo" 
+              id="anyone-logo"/>
+        </a>
+    </header>
+
+    <hr style="margin-inline: -10px;">
+
+    <section>
+
+        <h1 id="title">Retail Store Object Detection</h1>
+
+        {% if not filename %}
+            <h3 id="instruction">Hello {{ name }}! Please upload the shelf image to be detected by clicking the button below</h3>
+        {% endif %}
+
+        {% if filename %}
+            <h3 id="instruction">Your uploaded image:</h3>
+            
+            <div id="uploaded-image-container">
+                <img src="{{ url_for('display_uploaded_image', filename=filename) }}" id="uploaded-image">
+            </div>
+
+            <h3 id="instruction">Your image with detections:</h3>
+
+            <div id="detected-image-container">
+                <img src="{{ url_for('display_detected_image', filename=filename) }}" id="detected-image">
+            </div>
+            
+            <h3 id="instruction">Upload another image</h3>
+
+        {% endif %}
+
+    </section>
+
+    <form method="post" action="/" enctype="multipart/form-data">
+        
+        <div id="upload-section">
+            <input type="file" name="file" autocomplete="off" required class="select-file">
+        </div>
+        <div id="upload-section">
+            <input type="submit" value="Upload" class="button">
+        </div>
+
+    </form>
+
+    <div id="messages-section">
+
+        {% with messages = get_flashed_messages() %}
+            {% if messages %}
+                {% for message in messages %}
+                    
+                    <div>
+                        <p class="message">{{ message }}</p>
+                    </div>
+
+                {% endfor %}        
+            {% endif %}
+        {% endwith %}
+
+    </div>
+
+    <form method="post" action="/logout">
+        <div id="log-section">
+          <input type="submit" value="Logout" class="button">
+        </div>
+    </form>
+
+    <!-- CONTACT ME -->
+    <footer>
+        <h3 id="contact">Contact me:</h3>
+        <a href="https://www.linkedin.com/in/federico-ferreyra/"
+          target="_blank"
+          id="linkedin-link">
+            <img src="{{ url_for('static', filename='images/linkedin-logo.webp') }}"  
+                alt="Contact me on LinkedIn!" 
+                id="linkedin-logo"/>
+        </a> 
+    </footer>
+
+</body>

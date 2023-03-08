@@ -1,0 +1,227 @@
+@import url("../fonts/stylesheet.css");
+
+body {
+    background-color: #192B56;
+    font-family: 'Kamerik 105 Cyrillic';
+    word-spacing: 0.3em;
+    letter-spacing: 0.07em;
+}
+
+#title {
+    margin-top: 2em;
+    font-size: 3em;
+    text-align: center;
+    color: #09F8AD;
+    text-transform: uppercase;
+}
+
+#instruction {
+    margin: 1.5cm;
+    text-align: center;
+    color: whitesmoke;
+    font-weight: normal;
+    font-size: 175%;
+}
+
+/* UPLOAD SECTION */
+
+#upload-section {
+    display: flex;
+    justify-content: center;
+}
+
+#log-section {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    font-family: 'Kamerik 105 Cyrillic';
+    text-transform: uppercase;
+    border-radius: 8px;
+    background: linear-gradient(#07F9B5, #95e1dc);
+    border: 1px solid #2A2E37;
+    color: #2A2E37;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 300px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 1.5cm;
+}
+
+.button:hover {
+    transition: 0.5s;
+    -ms-transform: scale(115%);
+    transform: scale(115%);
+    border-radius: 10px;
+}
+
+.button:active {
+    transition: 0s;
+    -ms-transform: scale(100%);
+    transform: scale(100%);
+}
+
+.select-file {
+    width: 300px;
+}
+
+.select-file::-webkit-file-upload-button {
+    visibility: hidden;
+    height: 0%;
+    width: 0%;
+}
+
+.select-file {
+    font-family: 'Kamerik 105 Cyrillic';
+    text-transform: uppercase;
+    border-radius: 8px;
+    background: linear-gradient(#07F9B5, #95e1dc);
+    border: 2px solid #2A2E37;
+    color: #2A2E37;
+    text-align: center;
+    font-size: 23px;
+    padding: 20px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.select-file:hover {
+    transition: 0.5s;
+    -ms-transform: scale(115%);
+    transform: scale(115%);
+    border-radius: 10px;
+}
+
+.select-file:active {
+    transition: 0s;
+    -ms-transform: scale(100%);
+    transform: scale(100%);
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: #293A62;
+    height: 6em;
+    margin: -10px; 
+}
+
+footer {
+    position: fixed;
+    bottom: 0em;
+    display: flex;
+    justify-content: center;
+    color: whitesmoke;
+}
+
+#linkedin-link {
+    float: left;
+    margin-top: 1em;
+    margin-right: 1em;
+}
+
+#linkedin-logo {
+    transition: 0.5s;
+    height: 2em;
+    width: auto;
+}
+
+#linkedin-logo:hover {
+    transition: 0.5s;
+    -ms-transform: scale(115%);
+    transform: scale(115%);
+}
+
+#anyone-logo {
+    height: 6em;
+}
+
+#contact {
+    margin-top: 1.2em;
+    margin-right: 1em;
+}
+
+#uploaded-image-container {
+    display: flex;
+    justify-content: center;
+}
+
+#uploaded-image {
+    height: 50vw;
+    width: auto;
+}
+
+#detected-image-container {
+    display: flex;
+    justify-content: center;
+}
+
+#detected-image {
+    height: 50vw;
+    width: auto;
+}
+
+#prediction {
+    display: block;
+    position: relative;
+    margin-top: 2cm;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #293A62;
+    border: 3px solid whitesmoke;
+    text-align: center;
+    width: fit-content;
+    border-radius: 0.5cm;
+    transition: 0.5s;
+}
+
+#prediction:hover {
+    transition: 0.5s;
+    -ms-transform: scale(115%);
+    transform: scale(115%);
+}
+
+#report {
+    display: flex;
+    justify-content: center;
+}
+
+.prediction-text {
+    font-size: 35px;
+    font-weight: bold;
+    margin: 1cm;
+}
+
+#report-hidden {
+    visibility: hidden;
+    height: 0px;
+    width: 0px;
+}
+
+#messages-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 2cm;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #293A62;
+    border: 0px solid whitesmoke;
+    text-align: center;
+    width: fit-content;
+    border-radius: 0.5cm;
+    transition: 0.5s;
+}
+
+.message {
+    font-size: 28px;
+    font-weight: bold;
+    margin: 1cm;
+}
+
+input[type="password"]
+{
+    font-size: large;
+}

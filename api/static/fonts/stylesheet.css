@@ -1,0 +1,120 @@
+@font-face {
+    font-family: 'Kamerik 105 Cyrillic';
+    src: url('Kamerik105Cyrillic-Bold.eot');
+    src: local('Kamerik 105 Cyrillic Bold'), local('Kamerik105Cyrillic-Bold'),
+        url('Kamerik105Cyrillic-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Kamerik105Cyrillic-Bold.woff2') format('woff2'),
+        url('Kamerik105Cyrillic-Bold.woff') format('woff'),
+        url('Kamerik105Cyrillic-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Kamerik 105 Cyrillic';
+    src: url('Kamerik105Cyrillic-Light.eot');
+    src: local('Kamerik 105 Cyrillic Light'), local('Kamerik105Cyrillic-Light'),
+        url('Kamerik105Cyrillic-Light.eot?#iefix') format('embedded-opentype'),
+        url('Kamerik105Cyrillic-Light.woff2') format('woff2'),
+        url('Kamerik105Cyrillic-Light.woff') format('woff'),
+        url('Kamerik105Cyrillic-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Kamerik 105 Cyrillic';
+    src: url('Kamerik105Cyrillic-BoldOblique.eot');
+    src: local('Kamerik 105 Cyrillic Bold Oblique'), local('Kamerik105Cyrillic-BoldOblique'),
+        url('Kamerik105Cyrillic-BoldOblique.eot?#iefix') format('embedded-opentype'),
+        url('Kamerik105Cyrillic-BoldOblique.woff2') format('woff2'),
+        url('Kamerik105Cyrillic-BoldOblique.woff') format('woff'),
+        url('Kamerik105Cyrillic-BoldOblique.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Kamerik 105 Cyrillic';
+    src: url('Kamerik105Cyrillic-HeavyOblique.eot');
+    src: local('Kamerik 105 Cyrillic Heavy Oblique'), local('Kamerik105Cyrillic-HeavyOblique'),
+        url('Kamerik105Cyrillic-HeavyOblique.eot?#iefix') format('embedded-opentype'),
+        url('Kamerik105Cyrillic-HeavyOblique.woff2') format('woff2'),
+        url('Kamerik105Cyrillic-HeavyOblique.woff') format('woff'),
+        url('Kamerik105Cyrillic-HeavyOblique.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Kamerik 105 Cyrillic';
+    src: url('Kamerik105Cyrillic-Book.eot');
+    src: local('Kamerik 105 Cyrillic Book'), local('Kamerik105Cyrillic-Book'),
+        url('Kamerik105Cyrillic-Book.eot?#iefix') format('embedded-opentype'),
+        url('Kamerik105Cyrillic-Book.woff2') format('woff2'),
+        url('Kamerik105Cyrillic-Book.woff') format('woff'),
+        url('Kamerik105Cyrillic-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Kamerik 105 Cyrillic';
+    src: url('Kamerik105Cyrillic-BookOblique.eot');
+    src: local('Kamerik 105 Cyrillic Book Oblique'), local('Kamerik105Cyrillic-BookOblique'),
+        url('Kamerik105Cyrillic-BookOblique.eot?#iefix') format('embedded-opentype'),
+        url('Kamerik105Cyrillic-BookOblique.woff2') format('woff2'),
+        url('Kamerik105Cyrillic-BookOblique.woff') format('woff'),
+        url('Kamerik105Cyrillic-BookOblique.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Kamerik 105 Cyrillic';
+    src: url('Kamerik105Cyrillic-Heavy.eot');
+    src: local('Kamerik 105 Cyrillic Heavy'), local('Kamerik105Cyrillic-Heavy'),
+        url('Kamerik105Cyrillic-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('Kamerik105Cyrillic-Heavy.woff2') format('woff2'),
+        url('Kamerik105Cyrillic-Heavy.woff') format('woff'),
+        url('Kamerik105Cyrillic-Heavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Kamerik 105 Cyrillic';
+    src: url('Kamerik105Cyrillic-LightOblique.eot');
+    src: local('Kamerik 105 Cyrillic Light Oblique'), local('Kamerik105Cyrillic-LightOblique'),
+        url('Kamerik105Cyrillic-LightOblique.eot?#iefix') format('embedded-opentype'),
+        url('Kamerik105Cyrillic-LightOblique.woff2') format('woff2'),
+        url('Kamerik105Cyrillic-LightOblique.woff') format('woff'),
+        url('Kamerik105Cyrillic-LightOblique.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Kamerik 105 Cyrillic';
+    src: url('Kamerik105Cyrillic-Thin.eot');
+    src: local('Kamerik 105 Cyrillic Thin'), local('Kamerik105Cyrillic-Thin'),
+        url('Kamerik105Cyrillic-Thin.eot?#iefix') format('embedded-opentype'),
+        url('Kamerik105Cyrillic-Thin.woff2') format('woff2'),
+        url('Kamerik105Cyrillic-Thin.woff') format('woff'),
+        url('Kamerik105Cyrillic-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Kamerik 105 Cyrillic';
+    src: url('Kamerik105Cyrillic-ThinOblique.eot');
+    src: local('Kamerik 105 Cyrillic Thin Oblique'), local('Kamerik105Cyrillic-ThinOblique'),
+        url('Kamerik105Cyrillic-ThinOblique.eot?#iefix') format('embedded-opentype'),
+        url('Kamerik105Cyrillic-ThinOblique.woff2') format('woff2'),
+        url('Kamerik105Cyrillic-ThinOblique.woff') format('woff'),
+        url('Kamerik105Cyrillic-ThinOblique.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
