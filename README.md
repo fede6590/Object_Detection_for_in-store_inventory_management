@@ -1,5 +1,4 @@
-# AnyoneAI - Final Project
-## Object detection for in-store inventory management
+# Object detection for in-store inventory management
 
 The main objective of this project is to build a solution to detect objects in shelves for in-store inventory management. The dataset contains densely packed objects taken from multiple angles, lighting conditions, and situations.
 
